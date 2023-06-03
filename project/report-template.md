@@ -23,11 +23,11 @@ TODO: The score changed from 0.66 to 0.54.
 TODO: I would have spent more time with exploratory data analysis by checking distributions, correlations and looking for adding additional features and then on hyperparameter tuning. The hyperparameter tuning takes long time as for change of any combination the model has to be trained and evaluated again.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|----model---|time_limit|infer_limit|--------presets--------|score|
+|model|time_limit|infer_limit|presets|score|
 |------------|----------|-----------|-----------------------|-----|
-|--initial---|----600---|---None----|-----best_quality------|1.772|
-|add_features|----600---|---None----|-----best_quality------|0.663|
-|----hpo-----|---1500---|---0.02----|optimize_for_deployment|0.541|
+|initial|600|None|best_quality|1.772|
+|add_features|600|None|best_quality|0.663|
+|hpo|1500|0.02|optimize_for_deployment|0.541|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
